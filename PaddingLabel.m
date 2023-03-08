@@ -30,37 +30,24 @@
            self.layer.masksToBounds = TRUE;
 }
 
--(void)prepareForInterfaceBuilder{
-     
-}
-
 -(void)setRadius:(CGFloat)radius{
     _radius = radius;
-    [self cTextInsets];
 }
 
 -(void)setPaddingTop:(CGFloat)paddingTop{
     _paddingTop = paddingTop;
-    [self cTextInsets];
 }
 
 -(void)setPaddingLeft:(CGFloat)paddingLeft{
     _paddingLeft = paddingLeft;
-    [self cTextInsets];
 }
 
 -(void)setPaddingBottom:(CGFloat)paddingBottom{
     _paddingBottom = paddingBottom;
-    [self cTextInsets];
 }
 
 -(void)setPaddingRight:(CGFloat)paddingRight{
     _paddingRight = paddingRight;
-    [self cTextInsets];
-}
-
--(void)cTextInsets{
-    [self invalidateIntrinsicContentSize];
 }
 
 @end
