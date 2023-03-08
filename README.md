@@ -1,1 +1,1 @@
-# PaddingLabel for IOS, macOS
+# PaddingLabel for IOS
